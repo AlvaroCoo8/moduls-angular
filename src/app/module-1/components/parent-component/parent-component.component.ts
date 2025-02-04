@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './parent-component.component.css'
 })
 export class ParentComponentComponent {
-
+  public itemValue: string = 'Hello World!';
 }
